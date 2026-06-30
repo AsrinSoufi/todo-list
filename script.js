@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
   
-        li.querySelecto ('.delete-btn').addEventListener('click', () => {
+        li.querySelector ('.delete-btn').addEventListener('click', () => {
             li.remove();
             toggleEmptyState();
             updateProgress();
